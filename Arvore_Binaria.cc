@@ -121,7 +121,7 @@ int main() //corpo principal da função
     int adicionar = 0; // variavel responsavel por receber o numero que o usuario gostaria de inserir na fila
     while (true) // essa condição faz com que o laço de repetição seja sempre verdade
    { 
-        printf("Bem vindo a sua Arvore Binaria de Busca! Para visualizar a sua Arvore digite '1', para inserir um valor em sua Arvore digite '2', para remover um elemento de sua arvore digite '3' e para sair digite '4'\n"); // mensagem para o usuario
+        printf("Bem vindo a sua Arvore Binaria de Busca! Para visualizar a sua Arvore digite '1', para inserir um valor em sua Arvore digite '2', para remover um elemento de sua arvore digite '3', para ralizar uma busca em sua arvore digite '4' e para sair digite '5'\n"); // mensagem para o usuario
         scanf("%d", &navegador); // está recebendo do usuario um numero para ação
         while (navegador != 1 && navegador != 2 && navegador != 3 && navegador != 4) // verifica se o usuario digitou algo além do que esperado
         {
