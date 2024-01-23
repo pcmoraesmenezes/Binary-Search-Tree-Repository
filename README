@@ -1,0 +1,39 @@
+# Binary Search Tree Implementation in C++
+
+This C++ project demonstrates the implementation of a Binary Search Tree (BST). A BST is a hierarchical data structure that follows the properties of a binary tree and ensures that the values in the left subtree are less than or equal to the root, and the values in the right subtree are greater than the root.
+
+## Files
+
+- **bst.cpp**: The main C++ source code containing the implementation of the BST operations such as insertion, removal, search, and printing.
+- **bst.h**: Header file for the BST structure.
+
+## How to Use
+
+1. **View the Tree**: Choose option '1' to visualize the current state of the BST.
+
+2. **Insert a Value**: Choose option '2' to insert a value into the BST. Enter the desired number when prompted.
+
+3. **Remove an Element**: Choose option '3' to remove an element from the BST. Enter the value to be removed when prompted.
+
+4. **Search in the Tree**: Choose option '4' to perform a search in the BST. Enter the value to be searched when prompted.
+
+5. **Exit**: Choose option '5' to exit the program.
+
+## Building and Running
+
+Compile the code using a C++ compiler:
+
+```bash
+g++ bst.cpp -o bst
+```
+
+Run the executable:
+
+```bash
+./bst
+```
+
+## Notes
+
+- The project uses dynamic memory allocation for node creation and proper freeing during removal.
+- The code includes error handling for certain scenarios, such as attempting to remove from an empty tree or searching for a value not present.
